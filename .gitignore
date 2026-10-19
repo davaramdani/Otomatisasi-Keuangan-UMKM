@@ -1,0 +1,25 @@
+# Local secrets and Google service account keys
+.env
+.env.*
+!.env.example
+credentials.json
+zeezeedessertbot-*.json
+*.pem
+*.key
+
+# Python environments and generated files
+venv/
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Financial documents and local output
+output/
+*.log
+
+# Editor and OS files
+.idea/
+.vscode/
+Thumbs.db
+.DS_Store
